@@ -1,0 +1,65 @@
+.container {
+    width: 80%;
+
+}
+.window {
+    width: 500px;
+    height: 300px;
+    border: 4px solid rgb(161, 161, 161);
+    background-color: rgb(255, 225, 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.headline {
+    color: rgb(159, 0, 164);
+    font-size: 25px;
+    text-align: center;
+}
+
+.theform {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid rgb(161, 161, 161);
+    border-bottom: 2px solid rgb(161, 161, 161);
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 95%;
+    height: 150px;
+    /*
+    height: 100px;
+    */
+
+
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    color: black;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110px;
+
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
